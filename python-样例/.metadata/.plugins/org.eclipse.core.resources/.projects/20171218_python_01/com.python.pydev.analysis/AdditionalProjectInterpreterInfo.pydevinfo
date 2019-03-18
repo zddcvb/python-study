@@ -1,0 +1,25 @@
+-- VERSION_4
+-- START DISKCACHE
+G:\workplace\python\.metadata\.plugins\org.eclipse.core.resources\.projects\20171218_python_01\com.python.pydev.analysis\v2_indexcache
+FileMain|1513583898754|G:\workplace\python\20171218_python_01\src\FileMain.py
+FileUtil|1513583072984|G:\workplace\python\20171218_python_01\src\FileUtil.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+1=FileMain
+2=FileUtil
+-- END DICTIONARY
+-- START TREE 1
+3
+dic|1|dic!11@
+fil|2|fileutils!11@FileUtil!17@
+pat|1|path!11@
+-- END TREE
+-- START TREE 2
+5
+__i|1|__init__!2&18@
+__s|1|__str__!2&18@
+dic|1|dic!2&19@
+nam|1|name!2&19@
+rea|1|readFile!2&18@
+-- END TREE

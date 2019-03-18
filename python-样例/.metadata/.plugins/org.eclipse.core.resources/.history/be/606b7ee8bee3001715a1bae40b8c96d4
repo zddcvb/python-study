@@ -1,0 +1,12 @@
+#encoding=utf-8
+'''
+Created on 2017年12月18日
+
+@author: Administrator
+'''
+import os
+
+listdir = os.listdir("d:/")
+for index in listdir:
+    print index;
+# print listdir

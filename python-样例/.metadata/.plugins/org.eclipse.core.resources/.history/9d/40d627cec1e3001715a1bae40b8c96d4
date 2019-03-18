@@ -1,0 +1,10 @@
+'''
+Created on 2017年12月18日
+
+@author: Administrator
+'''
+import FileUtil;
+
+
+if __name__ == '__main__':
+    FileUtil();

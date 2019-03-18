@@ -1,0 +1,24 @@
+#coding=utf-8
+'''
+Created on 2017年12月18日
+
+@author: Administrator
+'''
+import os
+
+
+basePath="F:/"
+def readFile(path):
+    if os.path.exists(path):
+       os.mkdir(path)
+    dirs = os.listdir(path)
+    for index in dirs:
+        newPath=basePath+"/"+index
+        if os.path.isdir(newPath):
+            readFile(newPath)
+        else :
+            print index;
+readFile(basePath);
+        
+      #     print index;
+# print listdir

@@ -1,0 +1,23 @@
+#coding=utf-8
+'''
+Created on 2017年12月18日
+
+@author: Administrator
+'''
+import os
+
+
+
+def readFile(path):
+    dirs = os.listdir(path)
+    for index in dirs:
+        newPath=path+"/"+index
+        print "new path:"+newPath
+        if os.path.isdir(newPath):
+            readFile(newPath)
+        else :
+            print index;
+
+        
+      #     print index;
+# print listdir

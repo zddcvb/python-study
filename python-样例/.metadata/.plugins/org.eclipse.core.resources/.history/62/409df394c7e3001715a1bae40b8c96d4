@@ -1,0 +1,17 @@
+# coding=utf-8
+'''
+Created on 2017年12月18日
+
+@author: Administrator
+'''
+from FileUtil import FileUtil
+
+
+
+if __name__ == '__main__':
+    path = unicode("F:\部门对接\编辑所需文件20170930", "utf-8")
+    fileutils = FileUtil();
+    dic=fileutils.readFile(path)
+    print dic;
+
+    

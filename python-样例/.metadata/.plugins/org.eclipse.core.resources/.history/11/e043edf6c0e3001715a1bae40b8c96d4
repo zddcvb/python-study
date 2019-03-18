@@ -1,0 +1,8 @@
+#ecoding=utf-8
+'''
+Created on 2017Äê12ÔÂ18ÈÕ
+
+@author: Administrator
+'''
+my=[1,2,3]
+print my[0:2]

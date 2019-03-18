@@ -1,0 +1,10 @@
+'''
+Created on 2017年12月18日
+
+@author: Administrator
+'''
+import os
+from dircache import listdir
+
+self.listdir = os.listdir("d:/")
+print self.listdir

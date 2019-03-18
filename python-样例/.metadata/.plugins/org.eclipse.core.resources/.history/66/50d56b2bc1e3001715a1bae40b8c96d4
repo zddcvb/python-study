@@ -1,0 +1,25 @@
+'''
+Created on 2017年12月18日
+
+@author: Administrator
+'''
+
+class MyClass(object):
+    '''
+    classdocs
+    '''
+
+
+    def __init__(self, params):
+        '''
+        Constructor
+        '''
+    def readFile(self,path):
+        dirs = os.listdir(path)
+        for index in dirs:
+            newPath=path+"/"+index
+            print "new path:"+newPath
+            if os.path.isdir(newPath):
+                self.readFile(newPath)
+            else :
+                    print index;

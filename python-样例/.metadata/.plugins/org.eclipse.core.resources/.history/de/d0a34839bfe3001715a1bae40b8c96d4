@@ -1,0 +1,22 @@
+#encoding=utf-8
+'''
+Created on 2017年12月18日
+
+@author: Administrator
+'''
+import os
+from mhlib import PATH
+
+basePath="d:/"
+def readFile(path):
+    
+    listdir = os.listdir(basePath)
+    for index in listdir:
+        newPath=basePath+"/"+index
+        if os.path.isdir(newPath):
+            readFile(newPath)
+        else :
+            print index;
+        
+      #     print index;
+# print listdir

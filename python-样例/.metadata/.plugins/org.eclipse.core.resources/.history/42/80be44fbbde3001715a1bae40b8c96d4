@@ -1,0 +1,9 @@
+'''
+Created on 2017年12月18日
+
+@author: Administrator
+'''
+import os
+
+listdir = os.listdir("d:/")
+print listdir
